@@ -27,7 +27,7 @@ function App() {
             }}
           ></Route>
           <Route
-            exact path="/About"
+            exact path="myaestheteself.github.io/portfolio-4/About"
             component={() => {
               return <>This is the about page.</>;
             }}
