@@ -25,13 +25,11 @@ function App() {
             component={NavBar}
           ></Route>
           <Route
-            exact path="myaestheteself.github.io/portfolio-4/About"
-            component={() => {
-              return <>This is the about page.</>;
-            }}
-          ></Route>
+            exact path="/about"
+            component={NavBar}>
+            </Route>
         </Switch>
-      </Router>
+        </Router>
     </div>
   );
 }
