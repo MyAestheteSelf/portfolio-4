@@ -1,0 +1,12 @@
+{!menu ? <Menu /> : ""}
+                  <header className="header">
+                    <NavBar
+                      menu={() => {
+                        ToggleMenu();
+                      }}
+                    />
+                    <Header imgs={homeImg} />
+                  </header>
+                  <div className="content">
+                    <Home />
+                  </div>

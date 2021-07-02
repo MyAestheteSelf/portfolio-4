@@ -22,9 +22,7 @@ function App() {
         <Switch>
           <Route
             exact path="/"
-            component={() => {
-              return <>This is the home page.</>;
-            }}
+            component={NavBar}
           ></Route>
           <Route
             exact path="myaestheteself.github.io/portfolio-4/About"
