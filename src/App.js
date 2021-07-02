@@ -22,13 +22,13 @@ function App() {
         <Switch>
           <Route
             exact path="/"
-            render={() => {
+            component={() => {
               return <>This is the home page.</>;
             }}
           ></Route>
           <Route
             exact path="/About"
-            render={() => {
+            component={() => {
               return <>This is the about page.</>;
             }}
           ></Route>
