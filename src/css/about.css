@@ -1,0 +1,14 @@
+.container-about{
+    width: 50vw;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+}
+.container-about .profile-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+}
